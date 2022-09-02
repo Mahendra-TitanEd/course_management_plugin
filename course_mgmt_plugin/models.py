@@ -17,6 +17,7 @@ from model_utils.models import TimeStampedModel
 
 from xmodule.modulestore.django import SignalHandler
 
+
 def get_or_none(classmodel, **kwargs):
     """
     Return object if exist otherwise return None
