@@ -17,6 +17,8 @@ from model_utils.models import TimeStampedModel
 
 from xmodule.modulestore.django import SignalHandler
 
+from openedx.core.djangoapps.content.course_overviews.models import CourseOverview
+
 
 def get_or_none(classmodel, **kwargs):
     """
