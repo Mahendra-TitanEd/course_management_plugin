@@ -16,4 +16,3 @@
 #    as development.in or testing.in instead.
 
 django-environ      # used in example_grades for overrides to openedx_plugin API
-django-extensions   # harel's recommended dev tools

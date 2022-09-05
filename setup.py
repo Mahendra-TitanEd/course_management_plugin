@@ -87,7 +87,4 @@ setup(
             "course_mgmt_plugin = course_mgmt_plugin.apps:CourseMgmtPluginConfig",
         ],
     },
-    extras_require={
-        "Django": ["Django>=2.2,<2.3"],
-    },
 )
